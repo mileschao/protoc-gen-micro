@@ -10,4 +10,6 @@ require (
 	google.golang.org/grpc v1.19.1
 )
 
+replace github.com/micro/protoc-gen-micro => github.com/mileschao/protoc-gen-micro feature_methodName
+
 replace github.com/golang/lint => github.com/golang/lint v0.0.0-20190227174305-8f45f776aaf1
